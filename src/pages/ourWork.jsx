@@ -18,21 +18,21 @@ export default function OurWork() {
             <Movie>
                 <h2>The Athlete</h2>
                 <div className="line"></div>
-                <Link>
+                <Link to='/work/the-athlete'>
                     <img src={athlete} alt="athlete"/>
                 </Link>
             </Movie>
             <Movie>
                 <h2>The racer</h2>
                 <div className="line"></div>
-                <Link>
+                <Link to='/work/the-racer'>
                     <img src={theracer} alt="Racer"/>
                 </Link>
             </Movie>
             <Movie>
                 <h2>Good Times</h2>
                 <div className="line"></div>
-                <Link>
+                <Link to='/work/good-times'>
                     <img src={goodtimes} alt="goodtimes"/>
                 </Link>
             </Movie>
@@ -52,15 +52,17 @@ const Work = styled.div`
 
 const Movie = styled.div`
     min-height: 100vh;
+    color:white;
     .line{
         height: .5rem;
-        background: #cccccc;
+        background: #22d997;
         margin-bottom: 3rem;
     }
     img{
         width: 100%;
         height: 70vh;
         object-fit: cover;
+        cursor: pointer;
     }
     
 `;
