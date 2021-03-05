@@ -12,7 +12,7 @@ import goodtimes from '../img/goodtimes-small.png';
 
 
 
-export default function ourWork() {
+export default function OurWork() {
     return (
         <Work>
             <Movie>
@@ -36,7 +36,6 @@ export default function ourWork() {
                     <img src={goodtimes} alt="goodtimes"/>
                 </Link>
             </Movie>
-            
         </Work>
     )
 }

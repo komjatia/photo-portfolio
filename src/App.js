@@ -7,8 +7,9 @@ import GlobalStyle from "./components/GlobalStyle";
 // Import pages
 import AboutUs from "./pages/AboutUs";
 import Nav from "./components/Nav";
-import ourWork from "./pages/ourWork";
+import OurWork from "./pages/OurWork";
 import ContactUs from "./pages/ContactUs";
+import MovieDetail from "./pages/MovieDetail";
 
 function App() {
   return (
@@ -20,8 +21,12 @@ function App() {
           <AboutUs />
         </Route>
 
-        <Route exact path='/ourwork'>
-          <ourWork />
+        <Route exact path='/work'>
+          <OurWork />
+        </Route>
+
+        <Route path='/work/:id'>
+          <MovieDetail />
         </Route>
 
         <Route exact path='/contactus'>

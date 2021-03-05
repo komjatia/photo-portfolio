@@ -13,7 +13,7 @@ export default function Nav() {
                     <a href="/">1. About us</a>
                 </li>
                 <li>
-                    <a href="/ourworks">2. Our works</a>
+                    <a href="/work">2. Our works</a>
                 </li>
                 <li>
                     <a href="/contactus">3. Contact us</a>
