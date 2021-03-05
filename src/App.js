@@ -1,7 +1,12 @@
+import React from "react";
+
+// Import pages
+import AboutUs from "./pages/AboutUs";
+
 function App() {
   return (
     <div className='App'>
-      <h2>s</h2>
+      <AboutUs />
     </div>
   );
 }
