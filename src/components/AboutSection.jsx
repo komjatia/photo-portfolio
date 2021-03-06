@@ -11,6 +11,7 @@ import {About, Description, Hide, Image} from '../styles';
 // Framer Motion
 import {motion} from 'framer-motion';
 
+
 const AboutSection = () => {
 
   const titleAnimation = {
